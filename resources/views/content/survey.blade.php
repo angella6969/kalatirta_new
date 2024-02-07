@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>KALATIRTA - Layanan Terpadu BBWS SO</title>
     <link rel="stylesheet" href="{{ asset('kalatirta\css\style.css') }}">
-    @include('content.kalatirta.layout.link')
-    <link rel="shortcut icon" type="image/png" href="{{ asset('kalatirta\images\Kal-logo2.png') }}" />
+    @include('layout.content.link')
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images\Kal-logo2.png') }}" />
 </head>
 
 <body>
@@ -35,7 +35,7 @@
         </symbol>
         <!-- ==social== -->
 
-        @include('content.kalatirta.layout.sosial')
+        @include('layout.content.sosial')
 
         <!-- ==contact== -->
         <symbol id="address" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
@@ -327,7 +327,7 @@
 
 
     <!-- ==FOOTER== -->
-    @include('content.kalatirta.layout.footer')
+    @include('layout.content.footer')
 
     <!-- ==BACK TO TOP=== -->
     <a href="#" class="scroll-top">
@@ -340,7 +340,7 @@
     <div id="preloader"></div>
 
     <!-- ==SCRIPT== -->
-    <script src="{{ asset('kalatirta\js\main.js') }}"></script>
+    <script src="{{ asset('js\main.js') }}"></script>
     <script>
         // Variabel flag untuk menandakan apakah submit telah diklik
         var submitClicked = false;

@@ -341,7 +341,7 @@ HERO SECTION
     font-family: var(--font-primary);
     overflow: hidden;
     position: relative;
-    background-image: url("/kalatirta/images/kal-bg.jpg");
+    background-image: url("/images/kal-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -8,7 +8,7 @@
     <title>KALATIRTA - Layanan Terpadu BBWS SO</title>
 
     <link rel="stylesheet" href="{{ asset('kalatirta\css\style.css') }}">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('kalatirta\images\Kal-logo2.png') }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images\Kal-logo2.png') }}" />
 </head>
 
 <body>
@@ -56,7 +56,7 @@
             </path>
         </symbol>
         <!-- ==social== -->
-        @include('content.kalatirta.layout.sosial')
+        @include('layout.content.sosial')
 
         <!-- ==contact== -->
         <symbol id="address" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
@@ -89,8 +89,8 @@
     </svg>
 
     <!-- ==HEADER== -->
-    @include('content.kalatirta.layout.toolbar')
-    @include('content.kalatirta.layout.navbar')
+    @include('layout.content.toolbar')
+    @include('layout.content.navbar')
 
     <!-- ==HERO== -->
     {{-- <section id="hero">
@@ -161,7 +161,7 @@
     </main>
 
     <!-- ==FOOTER== -->
-    @include('content.kalatirta.layout.footer')
+    @include('layout.content.footer')
 
 
     <!-- ==BACK TO TOP=== -->
@@ -176,7 +176,7 @@
 
     <!-- ==SCRIPT== -->
     {{-- <script src="{{asset('/js/main.js')}}"></script> --}}
-    <script src="{{ asset('kalatirta\js\main.js') }}"></script>
+    <script src="{{ asset('js\main.js') }}"></script>
 
 
 </body>

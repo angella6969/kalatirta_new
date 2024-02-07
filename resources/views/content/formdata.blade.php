@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>KALATIRTA - Layanan Terpadu BBWS SO</title>
-    <link rel="shortcut icon" type="image/png" href="{{ asset('kalatirta\images\Kal-logo2.png') }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images\Kal-logo2.png') }}" />
 
-    @include('content.kalatirta.layout.link')
+    @include('layout.content.link')
 </head>
 
 <body>
@@ -34,7 +34,7 @@
             </path>
         </symbol>
         <!-- ==social== -->
-        @include('content.kalatirta.layout.sosial')
+        @include('layout.content.sosial')
 
 
         <!-- ==contact== -->
@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    @include('content.kalatirta.layout.navbar')
+    @include('layout.content.navbar')
 
 
     <!-- ==MAIN MENU== -->
@@ -238,7 +238,7 @@
 
 
     <!-- ==FOOTER== -->
-    @include('content.kalatirta.layout.footer')
+    @include('layout.content.footer')
 
     <!-- ==BACK TO TOP=== -->
     <a href="#" class="scroll-top">
@@ -251,7 +251,7 @@
     <div id="preloader"></div>
 
     <!-- ==SCRIPT== -->
-    <script src="{{ asset('kalatirta\js\main.js') }}"></script>
+    <script src="{{ asset('js\main.js') }}"></script>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
