@@ -24,8 +24,8 @@
                 <p>Permohonan Rekomendasi Teknis</p>
             </div>
             <div class="col icon-box">
-                {{-- <a href="{{ route('kalatirta.showPortal') }}"> --}}
-                <a href="#">
+                <a href="{{ route('kalatirta.showPortal') }}">
+                {{-- <a href="#"> --}}
                     <svg class="icon">
                         <use xlink:href="#data"></use>
                     </svg>

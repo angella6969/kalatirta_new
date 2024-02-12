@@ -30,3 +30,16 @@ Route::get('/kalatirta-so/permohonan-data', [KalatirtaPermintaanDataController::
 
 Route::post('/kalatirta-so/form-keberatan', [KalatirtaPermintaanDataController::class, 'formKeberatan_search'])->name('kalatirta.formKeberatan_search');
 
+Route::get('/kalatirta-so/portal', [KalatirtaPermintaanDataController::class, 'showPortal'])->name('kalatirta.showPortal');
+
+
+Route::get('/kalatirta-so/form-permohonan-data', [KalatirtaPermintaanDataController::class, 'create'])->name('kalatirta.create');
+Route::post('/kalatirta-so/form-permohonan-data', [KalatirtaPermintaanDataController::class, 'store'])->name('kalatirta.store');
+
+Route::get('/kalatirta-so/form-permohonan-data/survey', [KalatirtaPermintaanDataController::class, 'create1'])->name('survey');
+Route::post('/kalatirta-so/form-permohonan-data/survey', [KalatirtaPermintaanDataController::class, 'store1'])->name('kalatirta.store1');
+
+Route::get('/kalatirta-so/permohonan-data', [KalatirtaPermintaanDataController::class, 'show1'])->name('kalatirta.status');
+
+Route::resource('/dashboard/kalatirta-so', KalatirtaNewController::class)->except(['create', 'store']);
+

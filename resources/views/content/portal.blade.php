@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KALATIRTA - Layanan Terpadu BBWS SO</title>
 
-    <link rel="stylesheet" href="{{ asset('kalatirta\css\style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css\style.css') }}">
     <link rel="shortcut icon" type="image/png" href="{{ asset('images\Kal-logo2.png') }}" />
 </head>
 

@@ -11,7 +11,7 @@ class UpdateKalatirta_permintaan_dataRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**

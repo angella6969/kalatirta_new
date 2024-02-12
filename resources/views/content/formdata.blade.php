@@ -10,8 +10,7 @@
 </head>
 
 <body>
-    <!-- ==ICON== -->
-    <!-- ==main== -->
+
     <svg style="display:none;">
         <symbol id="rekomtek" viewBox="0 0 24 24">
             <path
