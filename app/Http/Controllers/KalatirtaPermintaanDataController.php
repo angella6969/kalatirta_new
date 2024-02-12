@@ -19,7 +19,7 @@ class KalatirtaPermintaanDataController extends Controller
      */
     public function index()
     {
-        return view('dashboard.form.kalatirta.index', [
+        return view('dashboard.index', [
             'datas' => Kalatirta_permintaan_data::latest()->get(),
         ]);
     }
